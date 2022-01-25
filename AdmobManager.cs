@@ -12,6 +12,7 @@ public class AdmobManager : MonoBehaviour
     public static AdmobManager instance;
     private InterstitialAd interstitial;
     private RewardedAd rewardedAd;
+    private string commit;
 
     private string rewardedAdID;
 
