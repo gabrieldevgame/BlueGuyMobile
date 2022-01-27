@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
     public GameObject NextLevel;
     public GameObject Menu;
     public GameObject AdmobMenu;
+    public GameObject Levels;
 
     public bool dontNeedAppleScore;
 
@@ -104,6 +105,11 @@ public class GameController : MonoBehaviour
     public void CloseAdmobMenu(){
         buttonSound.Play();
         AdmobMenu.SetActive(false);
+    }
+
+    public void ShowLevels(){
+        buttonSound.Play();
+        Levels.SetActive(true);
     }
 
     public void ShowGameOver(){
