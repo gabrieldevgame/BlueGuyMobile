@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlatformBoss : MonoBehaviour
 {
-    public float speed;
+    private float speed = 1.3f;
 
     private float platformXRange = 2000f;
     private float platformYRange = 2000f;
