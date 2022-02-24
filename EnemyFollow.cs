@@ -26,7 +26,7 @@ public class EnemyFollow : MonoBehaviour
     public BoxCollider2D triggerboxCollider2D;
     public CircleCollider2D circleCollider2D;
 
-    public float enemyHealth = 5;
+    public float enemyHealth = 4;
 
     // Start is called before the first frame update
     void Start()
